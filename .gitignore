@@ -1,17 +1,27 @@
-sample/DemoApp/build/
-sample/DemoApp/DemoApp.xcodeproj/*.pbxuser
-sample/DemoApp/DemoApp.xcodeproj/*.mode*
-sample/DemoApp/DemoApp.xcodeproj/xcuserdata*
-sample/DemoApp/DemoApp.xcodeproj/project.xcworkspace
-sample/theRunAround/build/
-sample/theRunAround/theRunAround.xcodeproj/*.pbxuser
-sample/theRunAround/theRunAround.xcodeproj/*.mode*
-src/facebook-ios-sdk.xcodeproj/*.pbxuser
-src/facebook-ios-sdk.xcodeproj/*.mode*
-src/build/
-test/UnitTest/UnitTest.xcodeproj/*.pbxuser
-test/UnitTest/UnitTest.xcodeproj/*.mode*
-test/UnitTest/build/
-*~
-*#
-.arcconfig
+#xcode noise
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+
+
+#old school
+.svn
+
+#osx noise
+.DS_Store
+profile
+
+
+todo.md
+
